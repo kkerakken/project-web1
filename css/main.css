@@ -1,0 +1,62 @@
+
+* {
+    box-sizing: border-box;
+}
+.clear {
+    clear: both;
+}
+body {
+    background: #f3f6fa;
+}
+ .body, .footer {
+    border: 1px solid red;
+}
+.main {
+    width: 1250px;
+    margin: 50px auto 0;
+}
+.nav {
+    background: #ffffff;
+    width: 150px;
+    float: left;
+    padding: 12px;
+    border-radius: 4px;
+    box-shadow: 1px 1px 1px rgba(0,0,0,.3);
+}
+.body {
+    margin-left: 175px;
+
+}
+.nav__ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+.nav__image {
+    background: url("../images/payer.png") no-repeat center center;
+    height: 40px;
+    width: 100%;
+}
+.nav__title {
+    text-align: center;
+    margin-top: 5px;
+}
+
+.nav__link {
+    color: #545c66;
+    text-decoration: none;
+    font-weight: bold;
+    display: block;
+    padding: 20px 0;
+}
+.nav__link:hover {
+    background: #f6f8fb;
+    text-decoration: underline;
+}
+.nav__link:hover .nav__image {
+     background: url("../images/payer-hover.png") no-repeat center center;;
+}
+.breadcrumbs {
+    border-bottom: 1px solid red;
+}
+

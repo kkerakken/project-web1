@@ -60,7 +60,7 @@ body {
     border-bottom: 1px solid red;
     float: left;
 }
-.user, .logout {
+.loguser {
     border-bottom: 1px solid red;
     float: right;
 }

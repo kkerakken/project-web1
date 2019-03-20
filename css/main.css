@@ -8,7 +8,7 @@
 body {
     background: #f3f6fa;
 }
- .body, .footer {
+ .footer {
     border: 1px solid red;
 }
 .main {
@@ -24,6 +24,7 @@ body {
     box-shadow: 1px 1px 1px rgba(0,0,0,.3);
 }
 .body {
+    width: 1080px;
     margin-left: 175px;
 
 }
@@ -59,8 +60,35 @@ body {
 .breadcrumbs {
     border-bottom: 1px solid red;
     float: left;
+    width: 650px;
 }
 .loguser {
-    border-bottom: 1px solid red;
     float: right;
+}
+.cabinet, .dash, .profile {
+    float: left;
+}
+.loguser {
+    width: 350px;
+    float: right;
+}
+.dash {
+    width: 20px;
+    text-align: center;
+}
+.cabinet {
+    text-align: center;
+}
+.cabinet__img {
+    float: left;
+    width: 20px;
+}
+.user__img {
+    float: left;
+}
+.content__header {
+    border-bottom: 1px solid red;
+    height: 110px;
+    width: 1025px
+    font-size: 21pt;
 }

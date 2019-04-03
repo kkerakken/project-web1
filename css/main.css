@@ -89,6 +89,9 @@ body {
 .content__header {
     border-bottom: 1px solid red;
     height: 110px;
-    width: 1025px
+    width: 1025px;
     font-size: 21pt;
+}
+.user {
+    float: left;
 }

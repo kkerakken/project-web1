@@ -46,7 +46,7 @@ body {
 .nav__link {
     color: #545c66;
     text-decoration: none;
-    font-weight: bold;
+    font-wedateight: bold;
     display: block;
     padding: 20px 0;
 }
@@ -58,7 +58,7 @@ body {
      background: url("../images/payer-hover.png") no-repeat center center;;
 }
 .breadcrumbs {
-    border-bottom: 1px solid red;
+    border-bottom: 1px solid silver;
     float: left;
     width: 650px;
 }
@@ -86,12 +86,42 @@ body {
 .user__img {
     float: left;
 }
-.content__header {
-    border-bottom: 1px solid red;
+.content__header--data {
+    border-bottom: 1px solid silver;
     height: 110px;
     width: 1025px;
-    font-size: 21pt;
+    font-size: 18pt;
+    padding: 40px;
 }
 .user {
     float: left;
+}
+.block_content {
+    float: left;
+    width: 930px;
+    height: 50px;
+    background: #DEF2FC;
+}
+.surname, .date, .pass, .number, .adress, .number_dog {
+    float: left;
+    padding: 15px 20px;
+}
+.surname {
+    padding: 15px 20px;
+}
+.content__data--abonent {
+    padding: 40px 15px 15px;
+}
+.block__content--file {
+    float: left;
+    padding: 15px 20px;
+}
+.tel {
+    padding: 15px 15px 20px 65px;
+}
+.email {
+    padding: 15px 15px 65px 120px;
+}
+.messege {
+    padding: 15px 15px 120px 300px;
 }
